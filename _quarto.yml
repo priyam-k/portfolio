@@ -3,11 +3,22 @@ project:
   output-dir: docs
 
 website:
-  title: "quarto-src"
+  title: "priyam-k's portolio!!"
   navbar:
+    background: primary
+    search: true
+    back-to-top-navigation: true
+    tools:
+      - icon: linkedin
+        href: https://linkedin.com/in/priyamkabra
+        target: _blank
+      - icon: github
+        href: https://github.com/priyam-k
+        target: _blank
     left:
       - href: index.qmd
         text: Home
+      - projects.qmd
       - about.qmd
 
 format:

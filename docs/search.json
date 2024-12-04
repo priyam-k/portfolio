@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "quarto-src",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "projects!!",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "hello"
   },
   {
     "objectID": "about.html",
@@ -14,17 +14,10 @@
     "text": "About this sites\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum nulla diam, nec rhoncus massa scelerisque eu. Nunc lacinia velit mollis quam blandit, at posuere justo pharetra. Vivamus vehicula vitae nibh vitae dictum. Suspendisse potenti. Donec semper dui nec varius pharetra. Quisque commodo hendrerit lorem. Proin sem metus, volutpat ac sodales eget, tempor non felis. Ut ultrices, libero quis efficitur convallis, arcu odio suscipit felis, consequat euismod sem nulla in libero. Donec iaculis non ipsum nec rutrum. Mauris porttitor est ac varius pulvinar. Ut nec augue lacus. Aliquam tristique, ex a faucibus ultricies, lacus lorem condimentum ipsum, eu mattis nunc urna vitae arcu. Pellentesque congue, sem ac aliquam vehicula, tellus quam aliquet dui, ac elementum odio velit eget quam. Nulla in sapien interdum, faucibus odio iaculis, ultrices eros. Suspendisse facilisis ullamcorper arcu sit amet dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nDuis ultrices, libero ultrices volutpat porttitor, tortor erat vehicula arcu, sed consectetur risus enim vel metus. Morbi ac tortor ut elit gravida ultricies. Cras viverra, massa in commodo feugiat, urna nunc condimentum elit, eget egestas tellus ante vel orci. In quis bibendum nibh. Fusce suscipit in elit auctor varius. Quisque eget faucibus nibh. Integer a scelerisque ipsum. Sed pretium volutpat lacinia. In varius purus metus, ut tempor dolor laoreet vitae. In imperdiet rhoncus diam, nec porttitor nulla. Nulla volutpat faucibus erat scelerisque auctor.\nNullam varius rhoncus eros, a iaculis dolor euismod a. Donec pulvinar congue sem, non euismod odio vulputate non. Quisque vulputate est nunc. Aenean efficitur neque sed suscipit fermentum. Etiam ullamcorper sem et nibh maximus hendrerit. Cras et cursus nibh, ut luctus nisl. Nam pretium porta turpis, at bibendum nibh tincidunt a. Proin erat augue, sodales condimentum lectus vel, finibus interdum nisi. Nam elementum malesuada quam et vulputate. Ut porttitor pharetra orci nec condimentum. Cras quis massa dui.\nIn dignissim semper nulla ut tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis vitae ex in sapien mollis fringilla non ac leo. Praesent vel tincidunt sapien. Suspendisse vehicula lorem eu lacus mollis faucibus. Praesent ac odio mattis, faucibus nisi id, tristique tortor. Etiam urna eros, porttitor ut scelerisque vel, pretium sed erat. Aenean semper neque laoreet sapien tempor, quis tincidunt nibh laoreet. Nam posuere pulvinar urna a bibendum. Mauris ut sem pretium, tempor mi non, mollis neque. Mauris bibendum metus ac orci faucibus dictum. Aliquam tempor ullamcorper mollis. Aenean sollicitudin rhoncus lectus. Nulla facilisi. Praesent nibh risus, dapibus eget nibh vel, porta fermentum justo.\nUt vel tristique nisl. Curabitur eleifend aliquet magna et laoreet. Integer porta, lectus eu fringilla elementum, tellus libero vulputate lorem, vitae vulputate erat velit quis lacus. Phasellus scelerisque dapibus dignissim. Duis eleifend odio id tellus placerat, ac lacinia augue dictum. Ut non augue eu arcu lobortis dictum. Nunc ullamcorper placerat turpis, eget eleifend ipsum porta vel. Nunc sodales ligula purus, et ornare felis condimentum sit amet. Pellentesque aliquam neque eget diam ullamcorper, quis efficitur nisi laoreet."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "projects!!",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "quarto-src",
     "section": "",
-    "text": "hello"
-  },
-  {
-    "objectID": "docs/projects.html",
-    "href": "docs/projects.html",
-    "title": "projects!!",
-    "section": "",
-    "text": "hello :)"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]

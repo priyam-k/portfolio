@@ -7,8 +7,8 @@
     gap: 20px;
 }
 .card {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    /*background-color: primary;
+    border: 1px solid #ddd;*/
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -27,23 +27,25 @@
 }
 .card-title {
     display: flex;
-    justify-content: space-between; /* Pushes title and GitHub link apart */
-    align-items: center; /* Aligns them vertically */
+    justify-content: space-between;
+    align-items: center;
     font-size: 1.5rem;
     margin: 0 0 10px;
 }
 .github-link {
     text-decoration: none;
     font-size: 1.25rem;
-    color: #333;
+    color: black;
+}
+.github-link:visited{
+    color: black
 }
 .github-link:hover {
-    color: #007bff;
+    color: #6c6c6c;
 }
 .card-description {
     font-size: 1rem;
     margin: 0 0 15px;
-    color: #666;
 }
 .card a {
     display: inline-block;

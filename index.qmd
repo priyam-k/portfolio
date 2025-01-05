@@ -1,5 +1,5 @@
 ---
-title: "quarto-src"
+title: "Home"
 ---
 
 Hello! I'm Priyam, a 17-year old who loves computer science! Check out some of my projects [here](/projects.html) or learn more about me [here](/about.html)!

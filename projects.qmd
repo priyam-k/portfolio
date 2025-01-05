@@ -20,7 +20,7 @@ format:
 
 <div class="container">
 
-{{< project-card title="Minecraft.py" language="python" desc="A custom Minecraft-inspired 3D renderer and sandbox, with easy custom model support, collision detection, perspective projections, and culling. Made in Python using Pygame as a canvas. Currenty a WIP." img="https://github.com/priyam-k/minecraft-py/blob/3ed344578cd22573b32a9b6842cc8c227b58f431/minecraftpy.png?raw=true" srclink="https://github.com/priyam-k/minecraft-py" >}}
+{{< project-card title="Minecraft.py" language="python" desc="A custom Minecraft-inspired 3D renderer and sandbox, with easy custom model support, collision detection, perspective projections, and culling. Made in Python using Pygame as a canvas. Currenty a WIP." img="https://github.com/priyam-k/portfolio/blob/ff8a96a05f4479186dcb991b1dc045fe5b9c2264/project-images/minecraftpy.png?raw=true" srclink="https://github.com/priyam-k/minecraft-py" >}}
 
 {{< project-card title="Beat The Board" language="python" desc="A simulator to study the various responsibilities, powers, and checks of the government. Created to study for US History quizzes. Made in Python using Pygame for the backend." img="https://picsum.photos/300/200" srclink="https://github.com/priyam-k/beat-the-board" >}}
 
@@ -28,15 +28,15 @@ format:
 
 {{< project-card title="3D Graphing" language="desmos" desc="A 3D Desmos grapher in the 2D graphing calculator (made before 3D Desmos was released), supporting 3D cartesian, cylindrical, and spherical coordinates, perspective projection, parametric function graphing, and more!" img="https://picsum.photos/300/200" srclink="https://www.desmos.com/calculator/kumepbkh2x" >}}
 
-{{< project-card title="Wedge Calculator" desc="A wedge calculator and visualizer in Desmos" img="https://picsum.photos/300/200" srclink="https://github.com/example" >}}
+{{< project-card title="Wedge Calculator" language="desmos" desc="A wedge calculator and visualizer in Desmos. Shows all forces for a simple wedge system" img="https://picsum.photos/300/200" srclink="https://github.com/example" >}}
 
-{{< project-card title="test title" desc="this is descriptive" img="https://picsum.photos/300/200" srclink="https://github.com/example" >}}
+{{< project-card title="Wordle Discord Bot" language="python" desc="A Discord bot that lets you play Wordle with your friends! Uses the discord.py API wrapper, and repl.it with Flask to create a webserver to let it run in the background." img="https://github.com/priyam-k/portfolio/blob/ff8a96a05f4479186dcb991b1dc045fe5b9c2264/project-images/wordlebot.png?raw=true" srclink="https://github.com/priyam-k/wordle-bot" >}}
 
-{{< project-card title="test title" desc="this is descriptive" img="https://picsum.photos/300/200" srclink="https://github.com/example" >}}
+{{< project-card title="Tic Tac Toe Discord Bot" language="python" desc="A Discord bot that lets you play Tic Tac Toe with your friends! Uses the discord.py API wrapper, and repl.it with Flask to create a webserver to let it run in the background." img="https://github.com/priyam-k/portfolio/blob/ff8a96a05f4479186dcb991b1dc045fe5b9c2264/project-images/tictactoebot.png?raw=true" srclink="https://github.com/priyam-k/tictactoe-bot" >}}
 
-{{< project-card title="test title" desc="this is descriptive" img="https://picsum.photos/300/200" srclink="https://github.com/example" >}}
+{{< project-card title="Translator Discord Bot" language="python" desc="A bot that lets you translate text directly in Discord! Uses the translators library for translation API, and pycord, repl.it and Flask for backend." img="https://github.com/priyam-k/portfolio/blob/ff8a96a05f4479186dcb991b1dc045fe5b9c2264/project-images/translatorbot.png?raw=true" srclink="https://github.com/priyam-k/translator-bot/" >}}
 
-{{< project-card title="test title" desc="this is descriptive" img="https://picsum.photos/300/200" srclink="https://github.com/example" >}}
+{{< project-card title="Micromouse" language="c++" desc="Meet Pixel, an autonomous maze-solving robot! Powered by an STM32 Nucleo, it runs floodfill to solve a maze as fast as possible! Includes a 2-wheel drivetrain, gyroscopic correction, and encoder odometry." img="https://picsum.photos/300/200" srclink="https://github.com/priyam-k/ieee-micromouse" >}}
 
 
 
@@ -44,7 +44,7 @@ format:
 </div>
 
 <script>
-  // Get the filter dropdown and all cards
+  // get filter dropdown and all cards
   const filterDropdown = document.getElementById('languageFilter');
   const cards = document.querySelectorAll('.card');
 
@@ -56,7 +56,7 @@ format:
       const cardLanguage = card.getAttribute('data-language');
 
       // Show or hide cards based on language
-      if (selectedLanguage === 'all' || cardLanguage === selectedLanguage) {
+      if (selectedLanguage === 'all' || cardLanguage.includes(selectedLanguage)) {
         card.style.display = 'block'; // Show the card
       } else {
         card.style.display = 'none'; // Hide the card

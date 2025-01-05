@@ -2,6 +2,4 @@
 title: "quarto-src"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Hello! I'm Priyam, a 17-year old who loves computer science! Check out some of my projects [here](/projects.html) or learn more about me [here](/about.html)!

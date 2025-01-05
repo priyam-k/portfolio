@@ -17,11 +17,29 @@
 .card:hover {
     transform: scale(1.05);
 }
-.card img {
+.card .imgcontainer img {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
+
+.card .imgcontainer .text-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(182, 209, 233, 0.5);
+    padding: 2px 7px;
+    border-radius: 10px;
+    opacity: 1;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .card:hover .imgcontainer .text-overlay {
+    background-color: rgb(57, 161, 252);
+  }
+
 .card-content {
     padding: 15px;
 }

@@ -7,22 +7,39 @@ format:
         page-layout: full
 ---
 
-
-<select id="languageFilter">
+<div class="container">
+<select class="form-select" id="languageFilter">
   <option value="all">All Languages</option>
   <option value="python">Python</option>
-  <option value="javascript">JavaScript</option>
-  <option value="ruby">Ruby</option>
-  <!-- Add more options as needed -->
+  <option value="htmljs">HTML/JavaScript</option>
+  <option value="cpp">C++</option>
+  <option value="java">Java</option>
+  <option value="desmos">Desmos</option>
 </select>
+</div>
 
 <div class="container">
 
-{{< project-card title="test title" desc="this is descriptive" img="https://picsum.photos/300/200" link="https://example.com" ghlink="https://github.com/example" >}}
+{{< project-card title="Minecraft.py" language="python" desc="A custom Minecraft-inspired 3D renderer and sandbox, with easy custom model support, collision detection, perspective projections, and culling. Made in Python using Pygame as a canvas. Currenty a WIP." img="https://github.com/priyam-k/minecraft-py/blob/3ed344578cd22573b32a9b6842cc8c227b58f431/minecraftpy.png?raw=true" srclink="https://github.com/priyam-k/minecraft-py" >}}
 
-{{< project-card title="Example Title" desc="This is descriptive!" img="https://picsum.photos/300/200" link="https://example.com" ghlink="https://github.com/example" >}}
+{{< project-card title="Beat The Board" language="python" desc="A simulator to study the various responsibilities, powers, and checks of the government. Created to study for US History quizzes. Made in Python using Pygame for the backend." img="https://picsum.photos/300/200" srclink="https://github.com/priyam-k/beat-the-board" >}}
 
-{{< project-card title="Example Title2" desc="This is descriptive!" img="https://picsum.photos/300/200" link="https://example.com" ghlink="https://github.com/example" >}}
+{{< project-card title="Linear Transformation Visualizer" language="desmos" desc="A Desmos project to visualize the effect of linear transformations in two dimensions. Supports transformations of functions or an arbitrary 2D unit grid." img="https://picsum.photos/300/200" srclink="https://www.desmos.com/calculator/3vyx5uhal0" >}}
+
+{{< project-card title="3D Graphing" language="desmos" desc="A 3D Desmos grapher in the 2D graphing calculator (made before 3D Desmos was released), supporting 3D cartesian, cylindrical, and spherical coordinates, perspective projection, parametric function graphing, and more!" img="https://picsum.photos/300/200" srclink="https://www.desmos.com/calculator/kumepbkh2x" >}}
+
+{{< project-card title="Wedge Calculator" desc="A wedge calculator and visualizer in Desmos" img="https://picsum.photos/300/200" srclink="https://github.com/example" >}}
+
+{{< project-card title="test title" desc="this is descriptive" img="https://picsum.photos/300/200" srclink="https://github.com/example" >}}
+
+{{< project-card title="test title" desc="this is descriptive" img="https://picsum.photos/300/200" srclink="https://github.com/example" >}}
+
+{{< project-card title="test title" desc="this is descriptive" img="https://picsum.photos/300/200" srclink="https://github.com/example" >}}
+
+{{< project-card title="test title" desc="this is descriptive" img="https://picsum.photos/300/200" srclink="https://github.com/example" >}}
+
+
+
 
 </div>
 

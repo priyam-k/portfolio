@@ -7,46 +7,47 @@ format:
         page-layout: full
 ---
 
-<div class="container">
-<select class="form-select" id="languageFilter">
-  <option value="all">All Languages</option>
-  <option value="python">Python</option>
-  <option value="html/js">HTML/JavaScript</option>
-  <option value="c++">C++</option>
-  <option value="java">Java</option>
-  <option value="desmos">Desmos</option>
-</select>
-</div>
+::: container
+<select class="form-select" id="languageFilter"> <option value="all">All Languages</option> <option value="python">Python</option> <option value="html/js">HTML/JavaScript</option> <option value="c++">C++</option> <option value="java">Java</option> <option value="desmos">Desmos</option> </select>
+:::
 
-<div class="container">
+::: container
+{{< project-card title="Minecraft.py" language="python" desc="A custom Minecraft-inspired 3D renderer and sandbox, with easy custom model support, collision detection, perspective projections, and culling. Made in Python using Pygame as a canvas. Currenty a WIP." img="https://github.com/priyam-k/portfolio/blob/main/project-images/minecraftpy.png?raw=true" srclink="https://github.com/priyam-k/minecraft-py" >}}
 
-{{< project-card title="Minecraft.py" language="python" desc="A custom Minecraft-inspired 3D renderer and sandbox, with easy custom model support, collision detection, perspective projections, and culling. Made in Python using Pygame as a canvas. Currenty a WIP." img="https://github.com/priyam-k/portfolio/blob/ff8a96a05f4479186dcb991b1dc045fe5b9c2264/project-images/minecraftpy.png?raw=true" srclink="https://github.com/priyam-k/minecraft-py" >}}
+{{< project-card title="Beat The Board" language="python" desc="A simulator to study the various responsibilities, powers, and checks of the government. Created to study for US History quizzes. Made in Python using Pygame for the backend." img="https://github.com/priyam-k/portfolio/blob/main/project-images/beattheboard.png?raw=true" srclink="https://github.com/priyam-k/beat-the-board" >}}
 
-{{< project-card title="Beat The Board" language="python" desc="A simulator to study the various responsibilities, powers, and checks of the government. Created to study for US History quizzes. Made in Python using Pygame for the backend." img="https://picsum.photos/300/200" srclink="https://github.com/priyam-k/beat-the-board" >}}
+{{< project-card title="Linear Transformation Visualizer" language="desmos" desc="A Desmos project to visualize the effect of linear transformations in two dimensions. Supports transformations of functions or an arbitrary 2D unit grid." img="https://github.com/priyam-k/portfolio/blob/main/project-images/lineartransforms.png?raw=true" srclink="https://www.desmos.com/calculator/3vyx5uhal0" >}}
 
-{{< project-card title="Linear Transformation Visualizer" language="desmos" desc="A Desmos project to visualize the effect of linear transformations in two dimensions. Supports transformations of functions or an arbitrary 2D unit grid." img="https://picsum.photos/300/200" srclink="https://www.desmos.com/calculator/3vyx5uhal0" >}}
+{{< project-card title="3D Graphing" language="desmos" desc="A 3D Desmos grapher in the 2D graphing calculator (made before 3D Desmos was released), supporting 3D cartesian, cylindrical, and spherical coordinates, perspective projection, parametric function graphing, and more!" img="https://github.com/priyam-k/portfolio/blob/main/project-images/3dgraphing.png?raw=true" srclink="https://www.desmos.com/calculator/kumepbkh2x" >}}
 
-{{< project-card title="3D Graphing" language="desmos" desc="A 3D Desmos grapher in the 2D graphing calculator (made before 3D Desmos was released), supporting 3D cartesian, cylindrical, and spherical coordinates, perspective projection, parametric function graphing, and more!" img="https://picsum.photos/300/200" srclink="https://www.desmos.com/calculator/kumepbkh2x" >}}
+{{< project-card title="Wedge Calculator" language="desmos" desc="A wedge calculator and visualizer in Desmos. Shows all forces for a simple wedge system, and calculates their magnitude and direction. Highly customizable, with a variety of variables and options!" img="https://github.com/priyam-k/portfolio/blob/main/project-images/desmoswedgecalc.png?raw=true" srclink="https://www.desmos.com/calculator/sh0yc7hs73" >}}
 
-{{< project-card title="Wedge Calculator" language="desmos" desc="A wedge calculator and visualizer in Desmos. Shows all forces for a simple wedge system, and calculates their magnitude and direction. Highly customizable, with a variety of variables and options!" img="https://picsum.photos/300/200" srclink="https://github.com/example" >}}
+{{< project-card title="Wordle Discord Bot" language="python" desc="A Discord bot that lets you play Wordle with your friends! Uses the discord.py API wrapper, and repl.it with Flask to create a webserver to let it run in the background." img="https://github.com/priyam-k/portfolio/blob/main/project-images/wordlebot.png?raw=true" srclink="https://github.com/priyam-k/wordle-bot" >}}
 
-{{< project-card title="Wordle Discord Bot" language="python" desc="A Discord bot that lets you play Wordle with your friends! Uses the discord.py API wrapper, and repl.it with Flask to create a webserver to let it run in the background." img="https://github.com/priyam-k/portfolio/blob/ff8a96a05f4479186dcb991b1dc045fe5b9c2264/project-images/wordlebot.png?raw=true" srclink="https://github.com/priyam-k/wordle-bot" >}}
+{{< project-card title="Tic Tac Toe Discord Bot" language="python" desc="A Discord bot that lets you play Tic Tac Toe with your friends! Uses the discord.py API wrapper, and repl.it with Flask to create a webserver to let it run in the background." img="https://github.com/priyam-k/portfolio/blob/main/project-images/tictactoebot.png?raw=true" srclink="https://github.com/priyam-k/tictactoe-bot" >}}
 
-{{< project-card title="Tic Tac Toe Discord Bot" language="python" desc="A Discord bot that lets you play Tic Tac Toe with your friends! Uses the discord.py API wrapper, and repl.it with Flask to create a webserver to let it run in the background." img="https://github.com/priyam-k/portfolio/blob/ff8a96a05f4479186dcb991b1dc045fe5b9c2264/project-images/tictactoebot.png?raw=true" srclink="https://github.com/priyam-k/tictactoe-bot" >}}
+{{< project-card title="Translator Discord Bot" language="python" desc="A bot that lets you translate text directly in Discord! Uses the translators library for translation API, and pycord, repl.it and Flask for backend." img="https://github.com/priyam-k/portfolio/blob/main/project-images/translatorbot.png?raw=true" srclink="https://github.com/priyam-k/translator-bot/" >}}
 
-{{< project-card title="Translator Discord Bot" language="python" desc="A bot that lets you translate text directly in Discord! Uses the translators library for translation API, and pycord, repl.it and Flask for backend." img="https://github.com/priyam-k/portfolio/blob/ff8a96a05f4479186dcb991b1dc045fe5b9c2264/project-images/translatorbot.png?raw=true" srclink="https://github.com/priyam-k/translator-bot/" >}}
+{{< project-card title="Micromouse" language="c++" desc="Meet Pixel, an autonomous maze-solving robot! Powered by an STM32 Nucleo, it runs floodfill to solve a maze as fast as possible! Includes a 2-wheel drivetrain, gyroscopic correction, and encoder odometry." img="https://github.com/priyam-k/portfolio/blob/main/project-images/pixel-micromouse.png?raw=true" srclink="https://github.com/priyam-k/ieee-micromouse" >}}
 
-{{< project-card title="Micromouse" language="c++" desc="Meet Pixel, an autonomous maze-solving robot! Powered by an STM32 Nucleo, it runs floodfill to solve a maze as fast as possible! Includes a 2-wheel drivetrain, gyroscopic correction, and encoder odometry." img="https://github.com/priyam-k/portfolio/blob/ef72ad3c7dda35b892d4886dd7de7220f90441f9/project-images/pixel-micromouse.png?raw=true" srclink="https://github.com/priyam-k/ieee-micromouse" >}}
+{{< project-card title="Dory" language="java" desc="Meet Dory, my FTC team's (old) Into The Deep robot. Programmed in Java building off of the FTC SDK, it has features like auto-alignment to AprilTags and samples, and has the second highest TeleOp OPR in the state!" img="https://github.com/priyam-k/portfolio/blob/main/project-images/doryrepairs.jpg?raw=true" srclink="https://github.com/priyam-k/simplecomplexintothedeep" >}}
 
-{{< project-card title="Dory" language="java" desc="Meet Dory, my FTC team's Into The Deep robot. Programmed in Java building off of the FTC SDK, it has features like auto-alignment to AprilTags and samples, and has the second highest TeleOp OPR in the state!" img="https://picsum.photos/300/200?raw=true" srclink="https://github.com/priyam-k/simplecomplexintothedeep" >}}
-
-{{< project-card title="" language="" desc="" img="?raw=true" srclink="" >}}
+{{< project-card title="Crush" language="java" desc="Meet Crush, my FTC team's v2 robot for the Into the Deep season! Features many improvements over Dory, including a boxtube extension for improved strength, a linkage-driven pivot, deadwheel odometry, sample autoalign, and much more! Set to debut at our league tournament!" img="https://github.com/priyam-k/portfolio/blob/main/project-images/ftccrush.png?raw=true" srclink="https://github.com/priyam-k/simplecomplexintothedeep" >}}
 
 
+{{< project-card title="Space Invaders" language="python" desc="A Galaga-style space invaders game, written in Python with Pygame. Mimics classic Galaga--with different enemy styles and waves, and increasing speed as the game continues--with a twist with powerups!" img="https://github.com/priyam-k/portfolio/blob/main/project-images/spaceinvaders.png?raw=true" srclink="https://github.com/priyam-k/space-invaders" >}}
+
+{{< project-card title="PySnake" language="python" desc="A simple implementation of Snake in Python, with Pygame as a canvas! :D" img="https://github.com/priyam-k/portfolio/blob/main/project-images/pysnake.png?raw=true" srclink="https://github.com/priyam-k/pysnake" >}}
+
+{{< project-card title="Conway's Game of Life" language="python" desc="A simulation of Conway's game of life in Python! Supports classic Game of Life rules (allowing for structures like gliders), but allows easy customizability, saving, and loading! (Above is a kind of puffer, which moves left, creating debris behind it)" img="https://github.com/priyam-k/portfolio/blob/main/project-images/gameoflife_annotated.png?raw=true" srclink="https://github.com/priyam-k/game-of-life" >}}
+
+{{< project-card title="Theory of Constraints Simulator" language="python" desc="A visualizer to demonstrate the Theory of Constraints and bottlenecking when working with several interconnected processes working at differing rates. Inspired by the book \"The Goal\"" img="https://github.com/priyam-k/portfolio/blob/main/project-images/theoryofconstraints.png?raw=true" srclink="https://github.com/priyam-k/theory-of-constraints" >}}
 
 
-</div>
+<!-- {{< project-card title="" language="" desc="" img="?raw=true" srclink="" >}} -->
+:::
 
+```{=html}
 <script>
   // get filter dropdown and all cards
   const filterDropdown = document.getElementById('languageFilter');
@@ -74,3 +75,4 @@ format:
   // Initial call to apply the filter when the page loads
   filterCards();
 </script>
+```
